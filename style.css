@@ -1,0 +1,50 @@
+
+.nav-logo{
+  width:40px;
+  height:40px;
+  object-fit: cover;
+  border-radius:50%;
+}
+
+.logo-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-height{
+height:80px
+}
+
+.nav-bg-color{
+  background-color: rgba(122, 71, 19, 0.1) !important;
+}
+
+.nav-font-color{
+  color:white !important;
+}
+
+.grid-cl-pink{
+  background-color: pink;
+}
+
+.search-btn{
+  background-color:darkorange !important;
+  border-color:darkorange;
+}
+
+.search-btn:hover{
+  background-color:rgb(190, 105, 2) !important;
+  border-color:rgb(190, 105, 2);
+}
+
+.logo-font{
+  color:white;
+  font-size:15px;
+}
+
+body{
+  background-color: rgb(126, 111, 84);
+}
+

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variables</title>
+  </head>
+  <body>
+    <!--<button
+      onclick="
+      console.log(`Cart Quantity : ${quantity}`)"
+    >
+      Show Quantity
+    </button>
+    <button
+      onclick="
+    quantity += 1;
+    console.log(`Cart Quantity : ${quantity}`);
+    "
+    >
+      Add to cart
+    </button>
+    <button
+      onclick="
+    quantity += 2;
+    console.log(`Cart Quantity : ${quantity}`);
+    "
+    >
+      +2
+    </button>
+    <button
+      onclick="
+    quantity += 3;
+    console.log(`Cart Quantity : ${quantity}`);
+    "
+    >
+      +3
+    </button>
+    <button
+      onclick="
+    quantity = 0;
+    console.log('Cart was reset');
+    "
+    >
+      Reset Cart
+    </button>
+
+    <script>
+      let quantity = 0;
+    </script>-->
+
+    <!-- let's get the above result using function and make the code cleaner -->
+
+    <!-- 
+    <button
+      onclick="
+messageOnConsole();"
+    >
+      Show Quantity
+    </button>
+    <button
+      onclick="
+quantity += 1;
+messageOnConsole();
+"
+    >
+      Add to cart
+    </button>
+    <button
+      onclick="
+quantity += 2;
+messageOnConsole();
+"
+    >
+      +2
+    </button>
+    <button
+      onclick="
+quantity += 3;
+messageOnConsole();
+"
+    >
+      +3
+    </button>
+    <button
+      onclick="
+quantity = 0;
+console.log('Cart was reset');
+messageOnConsole();
+
+"
+    >
+      Reset Cart
+    </button>
+
+    <script>
+      let quantity = 0;
+      function messageOnConsole() {
+        console.log(`Cart Quantity : ${quantity}`);
+      }
+    </script> -->
+
+    <!-- let's display cart quantity at webpage -->
+
+    <button
+      onclick="
+messageOnConsole();"
+    >
+      Show Quantity
+    </button>
+    <button
+      onclick="
+quantity += 1;
+messageOnConsole();
+"
+    >
+      Add to cart
+    </button>
+    <button
+      onclick="
+quantity += 2;
+messageOnConsole();
+"
+    >
+      +2
+    </button>
+    <button
+      onclick="
+quantity += 3;
+messageOnConsole();
+"
+    >
+      +3
+    </button>
+    <button
+      onclick="
+quantity = 0;
+
+messageOnConsole();
+document.querySelector('.js-reset-cart').innerHTML = 'Cart was Reset.'
+"
+    >
+      Reset Cart
+    </button>
+    <p class="js-reset-cart"></p>
+    <p class="js-cart-quantity-display"></p>
+
+    <script>
+      let quantity = 0;
+      function messageOnConsole() {
+        document.querySelector(
+          ".js-cart-quantity-display"
+        ).innerHTML = `Cart Quantity: ${quantity}`;
+      }
+    </script>
+  </body>
+</html>
